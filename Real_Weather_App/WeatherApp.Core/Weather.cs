@@ -11,8 +11,13 @@ using System.Text;
 
 namespace Real_Weather_App
 {
-    class Weather
+    public class Weather
     {
         public string Temperature { get; set; } = " ";
+        public string Pressure { get; set; } = "";
+        public string Humidity { get; set; } = "";
+
+        public string wind_speed { get; set; } = "";
+        public string wind_deg { get; set; } = "";
     }
 }
