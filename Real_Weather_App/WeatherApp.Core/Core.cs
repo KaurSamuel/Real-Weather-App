@@ -21,6 +21,7 @@ namespace WeatherApp.Core
             weather.Pressure = (string)results["main"]["pressure"]+ "bar";
             weather.wind_speed = (string)results["wind"]["speed"]+ "m/s";
             weather.wind_deg = (string)results["wind"]["deg"];
+            weather.description = (string)results["0"]["main"];
             return weather;
         }
     }

@@ -32,10 +32,12 @@
 				android:id="@+id/seacrh" />
 		</LinearLayout>
 		<ImageView
-				android:src="@drawable/sun"
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				android:gravity="center"
-				android:id="@+id/imageView1" />
+			android:src="@drawable/a006_fog"
+			android:layout_width="250.0dp"
+			android:layout_height="250.0dp"
+			android:gravity="center"
+			android:id="@+id/imageView1"
+			android:layout_marginLeft="61.0dp"
+			android:layout_marginRight="42.5dp" />
 	</LinearLayout>
 </RelativeLayout>

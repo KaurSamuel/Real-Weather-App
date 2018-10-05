@@ -1975,6 +1975,9 @@ namespace Real_Weather_App
 		public partial class Drawable
 		{
 			
+			// aapt resource value: 0x7F010002
+			public const int a006_fog = 2130771970;
+			
 			// aapt resource value: 0x7F090001
 			public const int abc_ab_share_pack_mtrl_alpha = 2131296257;
 			
@@ -2287,11 +2290,11 @@ namespace Real_Weather_App
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010002
-			public const int search = 2130771970;
-			
 			// aapt resource value: 0x7F010003
-			public const int sun = 2130771971;
+			public const int search = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int sun = 2130771972;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
