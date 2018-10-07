@@ -6,3 +6,11 @@ C:\Users\opilane\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.C
 C:\Users\opilane\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.AssemblyInfo.cs
 C:\Users\opilane\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.dll
 C:\Users\opilane\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.pdb
+C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\bin\Debug\netstandard1.2\WeatherApp.Core.deps.json
+C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\bin\Debug\netstandard1.2\WeatherApp.Core.dll
+C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\bin\Debug\netstandard1.2\WeatherApp.Core.pdb
+C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.AssemblyInfoInputs.cache
+C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.AssemblyInfo.cs
+C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.dll
+C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.pdb

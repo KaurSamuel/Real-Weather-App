@@ -3036,23 +3036,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\opilane\\.nuget\\packages\\": {},
+    "C:\\Users\\kaurs\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\Documents\\GitHub\\Real-Weather-App\\Real_Weather_App\\WeatherApp.Core\\WeatherApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\kaurs\\Documents\\GitHub\\Real-Weather-App\\Real_Weather_App\\WeatherApp.Core\\WeatherApp.Core.csproj",
       "projectName": "WeatherApp.Core",
-      "projectPath": "C:\\Users\\opilane\\Documents\\GitHub\\Real-Weather-App\\Real_Weather_App\\WeatherApp.Core\\WeatherApp.Core.csproj",
-      "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\Documents\\GitHub\\Real-Weather-App\\Real_Weather_App\\WeatherApp.Core\\obj\\",
+      "projectPath": "C:\\Users\\kaurs\\Documents\\GitHub\\Real-Weather-App\\Real_Weather_App\\WeatherApp.Core\\WeatherApp.Core.csproj",
+      "packagesPath": "C:\\Users\\kaurs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kaurs\\Documents\\GitHub\\Real-Weather-App\\Real_Weather_App\\WeatherApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kaurs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
