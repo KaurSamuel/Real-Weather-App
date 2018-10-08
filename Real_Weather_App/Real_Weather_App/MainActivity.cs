@@ -30,14 +30,48 @@ namespace Real_Weather_App
 
         private async void Button_Click(object sender, System.EventArgs e)
         {
+            var edittext = FindViewById<EditText>(Resource.Id.textInputEditText1);
+            City = edittext.Text;
             var weather = await Core.GetWeather("asd",City);
             var temperature_box = FindViewById<TextView>(Resource.Id.Temperature);
             var Humidity_box = FindViewById<TextView>(Resource.Id.Humidity);
             var WindSpeed_box = FindViewById<TextView>(Resource.Id.Wind_speed);
+            var descriptionbox = FindViewById<TextView>(Resource.Id.description);
+            var mainimage = FindViewById<ImageView>(Resource.Id.mainimage);
+            int id = weather.ID;
 
             temperature_box.Text = weather.Temperature;
             Humidity_box.Text = weather.Humidity;
             WindSpeed_box.Text = weather.wind_speed;
+            descriptionbox.Text = weather.description;
+            switch(weather.description)
+            {
+                case ("Clouds"):
+                    mainimage.SetImageResource(Resource.Drawable.fewclouds);
+                    break;
+                case ("Clear"):
+                    mainimage.SetImageResource(Resource.Drawable.sunny);
+                    break;
+                case ("Rain"):
+                    mainimage.SetImageResource(Resource.Drawable.Rain);
+                    break;
+                case ("Thunderstorm"):
+                    mainimage.SetImageResource(Resource.Drawable.storm);
+                    break;
+                case ("Drizzle"):
+                    mainimage.SetImageResource(Resource.Drawable.drizzle);
+                    break;
+                case ("Snow"):
+                    mainimage.SetImageResource(Resource.Drawable.snow);
+                    break;
+                case ("Mist"):
+                    mainimage.SetImageResource(Resource.Drawable.mist);
+                    break;
+                case ("Fog"):
+                    mainimage.SetImageResource(Resource.Drawable.mist);
+                    break;
+
+            }
         }
     }
 }

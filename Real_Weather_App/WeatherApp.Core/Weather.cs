@@ -21,5 +21,6 @@ namespace Real_Weather_App
         public string wind_deg { get; set; } = "";
 
         public string description { get; set; } = "";
+        public int ID { get; set; } = 0;
     }
 }
