@@ -22,7 +22,7 @@ namespace Real_Weather_App
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Forecast);
             var list = FindViewById<ListView>(Resource.Id.List);
-            list.Adapter =new Cu
+            
         }
     }
 }
