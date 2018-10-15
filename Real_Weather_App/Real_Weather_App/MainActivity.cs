@@ -6,6 +6,7 @@ using Android.Support.V7.App;
 using Android.Widget;
 using WeatherApp.Core;
 using System;
+using Android.Content;
 
 namespace Real_Weather_App
 {
@@ -13,7 +14,6 @@ namespace Real_Weather_App
     public class MainActivity : AppCompatActivity
     {
         string City;
-        ImageView Main_image;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -25,8 +25,19 @@ namespace Real_Weather_App
             search_button.Click += Button_Click;
             var edittext = FindViewById<EditText>(Resource.Id.textInputEditText1);
             City = edittext.Text;
+            var forecast_btn = FindViewById<Button>(Resource.Id.Forecast_btn);
+            forecast_btn.Click += Button_click_forecast;
             //button.Click += Button_Click;
         }
+        
+        private void Button_click_forecast(object sender, System.EventArgs e)
+        {
+            var Forecast_activity = new Intent(this, typeof(forecast_controller));
+            StartActivity(Forecast_activity);
+
+
+        }
+
 
         private async void Button_Click(object sender, System.EventArgs e)
         {

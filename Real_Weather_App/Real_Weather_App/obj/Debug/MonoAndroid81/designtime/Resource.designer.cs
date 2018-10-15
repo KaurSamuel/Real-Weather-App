@@ -2507,6 +2507,9 @@ namespace Real_Weather_App
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
+			// aapt resource value: 0x7F020008
+			public const int Forecast_btn = 2130837512;
+			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
 			
@@ -2516,8 +2519,8 @@ namespace Real_Weather_App
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
 			
-			// aapt resource value: 0x7F020010
-			public const int Humidity = 2130837520;
+			// aapt resource value: 0x7F020011
+			public const int Humidity = 2130837521;
 			
 			// aapt resource value: 0x7F0C000A
 			public const int icon = 2131492874;
@@ -2554,6 +2557,9 @@ namespace Real_Weather_App
 			
 			// aapt resource value: 0x7F020002
 			public const int linearLayout2 = 2130837506;
+			
+			// aapt resource value: 0x7F020013
+			public const int List = 2130837523;
 			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
@@ -2654,8 +2660,8 @@ namespace Real_Weather_App
 			// aapt resource value: 0x7F020005
 			public const int seacrh = 2130837509;
 			
-			// aapt resource value: 0x7F020008
-			public const int search = 2130837512;
+			// aapt resource value: 0x7F020009
+			public const int search = 2130837513;
 			
 			// aapt resource value: 0x7F0C005F
 			public const int search_badge = 2131492959;
@@ -2735,8 +2741,8 @@ namespace Real_Weather_App
 			// aapt resource value: 0x7F0C0016
 			public const int tag_transition_group = 2131492886;
 			
-			// aapt resource value: 0x7F020009
-			public const int Temperature = 2130837513;
+			// aapt resource value: 0x7F020010
+			public const int Temperature = 2130837520;
 			
 			// aapt resource value: 0x7F0C0017
 			public const int text = 2131492887;
@@ -2810,8 +2816,8 @@ namespace Real_Weather_App
 			// aapt resource value: 0x7F0C008F
 			public const int visible = 2131493007;
 			
-			// aapt resource value: 0x7F020011
-			public const int Wind_speed = 2130837521;
+			// aapt resource value: 0x7F020012
+			public const int Wind_speed = 2130837522;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -2953,6 +2959,9 @@ namespace Real_Weather_App
 			// aapt resource value: 0x7F030002
 			public const int activity_main = 2130903042;
 			
+			// aapt resource value: 0x7F030003
+			public const int CustomRow = 2130903043;
+			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
 			
@@ -2994,6 +3003,9 @@ namespace Real_Weather_App
 			
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
+			
+			// aapt resource value: 0x7F030004
+			public const int Forecast = 2130903044;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;

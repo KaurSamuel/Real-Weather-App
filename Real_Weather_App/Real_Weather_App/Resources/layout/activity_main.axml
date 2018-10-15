@@ -44,10 +44,9 @@
 				android:layout_height="161.0dp"
 				android:gravity="center"
 				android:id="@+id/mainimage" />
-
-			</LinearLayout>
+		</LinearLayout>
 		<TextView
-			android:text=""
+			android:text="debug"
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"
@@ -56,6 +55,13 @@
 			android:layout_marginTop="10.0dp"
 			android:layout_marginBottom="0.0dp"
 			android:layout_marginLeft="0.0dp" />
+		<Button
+			android:text="Forecast"
+			android:layout_width="237.0dp"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:id="@+id/Forecast_btn"
+			android:layout_marginLeft="73.0dp" />
 		<LinearLayout
 			android:orientation="horizontal"
 			android:minWidth="25px"
@@ -68,14 +74,14 @@
 				android:layout_width="55.0dp"
 				android:layout_height="55.0dp"
 				android:id="@+id/search"
-				android:layout_marginTop="27.0dp" />
+				android:layout_marginTop="11.0dp" />
 			<TextView
 				android:text="Temperature"
 				android:textAppearance="?android:attr/textAppearanceLarge"
 				android:layout_width="wrap_content"
 				android:layout_height="match_parent"
 				android:id="@+id/Temperature"
-				android:layout_marginTop="36.0dp"
+				android:layout_marginTop="21.5dp"
 				android:layout_marginBottom="0.0dp"
 				android:layout_marginLeft="23.0dp" />
 		</LinearLayout>
