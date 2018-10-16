@@ -14,4 +14,3 @@ C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Cor
 C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.AssemblyInfo.cs
 C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.dll
 C:\Users\kaurs\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.pdb
-C:\Users\opilane\Documents\GitHub\Real-Weather-App\Real_Weather_App\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.csprojAssemblyReference.cache

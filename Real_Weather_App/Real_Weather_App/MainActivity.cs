@@ -34,8 +34,6 @@ namespace Real_Weather_App
         {
             var Forecast_activity = new Intent(this, typeof(forecast_controller));
             StartActivity(Forecast_activity);
-
-
         }
 
 

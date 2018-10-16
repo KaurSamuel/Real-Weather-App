@@ -2558,9 +2558,6 @@ namespace Real_Weather_App
 			// aapt resource value: 0x7F020002
 			public const int linearLayout2 = 2130837506;
 			
-			// aapt resource value: 0x7F020013
-			public const int List = 2130837523;
-			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
 			
@@ -2764,6 +2761,15 @@ namespace Real_Weather_App
 			
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
+			
+			// aapt resource value: 0x7F020013
+			public const int textView1 = 2130837523;
+			
+			// aapt resource value: 0x7F020014
+			public const int textView2 = 2130837524;
+			
+			// aapt resource value: 0x7F020015
+			public const int textView3 = 2130837525;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -3006,6 +3012,9 @@ namespace Real_Weather_App
 			
 			// aapt resource value: 0x7F030004
 			public const int Forecast = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int list_item = 2130903045;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
