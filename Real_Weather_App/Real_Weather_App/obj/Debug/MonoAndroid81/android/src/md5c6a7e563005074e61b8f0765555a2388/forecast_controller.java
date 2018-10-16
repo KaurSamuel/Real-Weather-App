@@ -2,7 +2,7 @@ package md5c6a7e563005074e61b8f0765555a2388;
 
 
 public class forecast_controller
-	extends android.app.ListActivity
+	extends android.support.v7.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer
 {

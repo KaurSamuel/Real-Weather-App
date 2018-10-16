@@ -32,7 +32,7 @@ namespace Real_Weather_App
         
         private void Button_click_forecast(object sender, System.EventArgs e)
         {
-            var Forecast_activity = new Intent(this, typeof(forecast_controller));
+            var Forecast_activity = new Intent(this, typeof(ForecastActivity));
             StartActivity(Forecast_activity);
         }
 

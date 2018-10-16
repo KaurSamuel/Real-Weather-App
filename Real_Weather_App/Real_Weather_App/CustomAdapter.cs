@@ -39,7 +39,7 @@ namespace Real_Weather_App
         {
             View view = convertView;
             if (view == null)
-                view = context.LayoutInflater.Inflate(Resource.Layout.Forecast, null);
+                view = context.LayoutInflater.Inflate(Resource.Layout.list_item, null);
 
             view.FindViewById<TextView>(Resource.Id.textView1).Text = items[position];
             view.FindViewById<TextView>(Resource.Id.textView2).Text = items[position];
