@@ -7,12 +7,16 @@ using Android.Widget;
 using WeatherApp.Core;
 using System;
 using Android.Content;
+using System.Collections.Generic;
 
 namespace Real_Weather_App
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        public string CityID;
+        public bool forecast;
+        public string id;
         string City;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -30,24 +34,26 @@ namespace Real_Weather_App
             //button.Click += Button_Click;
         }
         
-        private void Button_click_forecast(object sender, System.EventArgs e)
+        private async void Button_click_forecast(object sender, System.EventArgs e)
         {
-            var Forecast_activity = new Intent(this, typeof(ForecastActivity));
-            StartActivity(Forecast_activity);
+            var ForecastActivity = new Intent(this, typeof(ForecastActivity));
+            ForecastActivity.PutExtra("WeatherData", id);
+            StartActivity(ForecastActivity);
         }
 
 
         private async void Button_Click(object sender, System.EventArgs e)
         {
+            forecast = false;
             var edittext = FindViewById<EditText>(Resource.Id.textInputEditText1);
             City = edittext.Text;
-            var weather = await Core.GetWeather("asd",City);
+            var weather = await Core.GetWeather("normal",City,CityID,forecast);
             var temperature_box = FindViewById<TextView>(Resource.Id.Temperature);
             var Humidity_box = FindViewById<TextView>(Resource.Id.Humidity);
             var WindSpeed_box = FindViewById<TextView>(Resource.Id.Wind_speed);
             var descriptionbox = FindViewById<TextView>(Resource.Id.description);
             var mainimage = FindViewById<ImageView>(Resource.Id.mainimage);
-            int id = weather.ID;
+            string id = weather.ID;
 
             temperature_box.Text = weather.Temperature;
             Humidity_box.Text = weather.Humidity;

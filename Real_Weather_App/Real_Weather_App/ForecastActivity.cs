@@ -26,12 +26,16 @@ namespace Real_Weather_App
             ListView list = FindViewById<ListView>(Resource.Id.listView1);
             list.Adapter = new CustomAdapter(this, countries);
 
-             /*ListView.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
-             {
-                 Toast.MakeText(Application, ((TextView)args.View).Text, ToastLength.Short).Show();
-             };
+            /*ListView.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
+            {
+                Toast.MakeText(Application, ((TextView)args.View).Text, ToastLength.Short).Show();
+            };
 
-             ListView.TextFilterEnabled = true;*/
+            ListView.TextFilterEnabled = true;*/
+
+            List<Weather> weather = await Core.GetWeatherForecast(CityID);
+
         }
     }
+    
 }
