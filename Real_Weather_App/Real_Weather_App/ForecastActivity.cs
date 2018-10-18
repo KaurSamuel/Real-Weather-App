@@ -10,31 +10,41 @@ using Android.Runtime;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using WeatherApp.Core;
 
 namespace Real_Weather_App
 {
     [Activity(Label = "ForecastActivity")]
     public class ForecastActivity : AppCompatActivity
     {
-        List<string> countries = new List<string>() { "esimene", "teine", "kolmas" };
+        public string CityID;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Forecast);
-            ListView list = FindViewById<ListView>(Resource.Id.listView1);
-            list.Adapter = new CustomAdapter(this, countries);
-
-            /*ListView.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
-            {
-                Toast.MakeText(Application, ((TextView)args.View).Text, ToastLength.Short).Show();
-            };
-
-            ListView.TextFilterEnabled = true;*/
-
+            CityID = Intent.GetStringExtra("WeatherData");
+            forecast("s");
+        }
+        //, System.EventArgs e
+        private async void forecast(object sender)
+        {
+            //item.Date, item.description, item.Temperature
+            List<string> forecastweather = new List<string>();
+            List<string> Date = new List<string>();
+            List<string> Temperature = new List<string>();
+            List<string> description = new List<string>();
             List<Weather> weather = await Core.GetWeatherForecast(CityID);
-
+            foreach (var item in weather)
+            {
+                Date.Add(item.Date);
+                Temperature.Add(item.Temperature);
+                description.Add(item.description);
+                
+            }
+            ListView list = FindViewById<ListView>(Resource.Id.listView1);
+            list.Adapter = new CustomAdapter(this, forecastweather,Date,Temperature,description);
         }
     }
     

@@ -113,3 +113,4 @@ C:\Users\opilane\Documents\GitHub\Real-Weather-App\Real_Weather_App\Real_Weather
 C:\Users\opilane\Documents\GitHub\Real-Weather-App\Real_Weather_App\Real_Weather_App\obj\Debug\MonoAndroid81\android\assets\System.Xml.Linq.pdb
 C:\Users\opilane\Documents\GitHub\Real-Weather-App\Real_Weather_App\Real_Weather_App\obj\Debug\MonoAndroid81\android\assets\System.Xml.pdb
 C:\Users\opilane\Documents\GitHub\Real-Weather-App\Real_Weather_App\Real_Weather_App\obj\Debug\MonoAndroid81\android\assets\WeatherApp.Core.pdb
+C:\Users\opilane\Documents\GitHub\Real-Weather-App\Real_Weather_App\Real_Weather_App\obj\Debug\MonoAndroid81\linksrc\Real_Weather_App.pdb

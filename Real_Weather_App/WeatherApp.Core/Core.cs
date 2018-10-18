@@ -30,7 +30,7 @@ namespace WeatherApp.Core
             List<Weather> weather = new List<Weather>() { };
 
             string key = "9c53713d4a89d60615482a2ad46a4e45";
-            string queryString = "api.openweathermap.org/data/2.5/forecast?id=" + CityID + "&APPID=" + key + "&units=metric";
+            string queryString = "http://api.openweathermap.org/data/2.5/forecast?id=" + CityID + "&APPID=" + key + "&units=metric";
             dynamic results = await DataService.GetDataFromService(queryString).ConfigureAwait(false);
             for (int i = 0; i < 39; i+=8)
             {

@@ -34,7 +34,7 @@ namespace Real_Weather_App
             //button.Click += Button_Click;
         }
         
-        private async void Button_click_forecast(object sender, System.EventArgs e)
+        private void Button_click_forecast(object sender, System.EventArgs e)
         {
             var ForecastActivity = new Intent(this, typeof(ForecastActivity));
             ForecastActivity.PutExtra("WeatherData", id);
@@ -53,7 +53,7 @@ namespace Real_Weather_App
             var WindSpeed_box = FindViewById<TextView>(Resource.Id.Wind_speed);
             var descriptionbox = FindViewById<TextView>(Resource.Id.description);
             var mainimage = FindViewById<ImageView>(Resource.Id.mainimage);
-            string id = weather.ID;
+            id = weather.ID;
 
             temperature_box.Text = weather.Temperature;
             Humidity_box.Text = weather.Humidity;

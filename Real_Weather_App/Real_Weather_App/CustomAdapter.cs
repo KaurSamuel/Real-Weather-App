@@ -15,12 +15,19 @@ namespace Real_Weather_App
     public class CustomAdapter : BaseAdapter<string>
     {
         List<string> items;
+        List<string> Date;
+        List<string> Temp;
+        List<string> Desc;
         Activity context;
 
-        public CustomAdapter(Activity context, List<string> items) : base()
+        public CustomAdapter(Activity context, List<string> items, List<string> Date, List<string> Temp, List<string> Desc) : base()
         {
             this.context = context;
             this.items = items;
+            this.Date = Date;
+            this.Temp = Temp;
+            this.Desc = Desc;
+            
         }
 
         public override string this[int position]
@@ -28,7 +35,7 @@ namespace Real_Weather_App
             get { return items[position]; }
         }
 
-        public override int Count { get { return items.Count; } }
+        public override int Count { get { return Temp.Count; } }
 
         public override long GetItemId(int position)
         {
@@ -41,9 +48,9 @@ namespace Real_Weather_App
             if (view == null)
                 view = context.LayoutInflater.Inflate(Resource.Layout.list_item, null);
 
-            view.FindViewById<TextView>(Resource.Id.textView1).Text = items[position];
-            view.FindViewById<TextView>(Resource.Id.textView2).Text = items[position];
-            view.FindViewById<TextView>(Resource.Id.textView3).Text = items[position];
+            view.FindViewById<TextView>(Resource.Id.textView1).Text = Date[position];
+            view.FindViewById<TextView>(Resource.Id.textView2).Text = Temp[position];
+            view.FindViewById<TextView>(Resource.Id.textView3).Text = Desc[position];
             return view;
         }
     }
