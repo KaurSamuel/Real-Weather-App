@@ -4,33 +4,42 @@
 	android:orientation="vertical"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent">
-  <LinearLayout
-		android:orientation="horizontal"
+	<LinearLayout
+		android:orientation="vertical"
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/linearLayout1" >
-    <TextView
+		 <TextView
 			android:text="Large Text"
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
 			android:id="@+id/textView1" />
-    <TextView
-			android:text="Large Text"
-			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:layout_width="wrap_content"
-			android:layout_height="match_parent"
-			android:id="@+id/textView2"
-			android:layout_marginLeft="15.0dp" />
-    <TextView
-			android:text="Large Text"
-			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:layout_width="wrap_content"
-			android:layout_height="match_parent"
-			android:id="@+id/textView3"
-			android:layout_marginLeft="16.0dp" />
-  </LinearLayout>
+		 <LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1" >
+			<TextView
+				android:text="Large Text"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="117.5dp"
+				android:layout_height="match_parent"
+				android:id="@+id/textView2"
+				android:layout_marginLeft="0.0dp" />
+			<TextView
+				android:text="Large Text"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="207.5dp"
+				android:layout_height="match_parent"
+				android:id="@+id/textView3"
+				android:layout_marginLeft="16.0dp" />
+			 </LinearLayout>
+
+	 </LinearLayout>
 
 </LinearLayout>

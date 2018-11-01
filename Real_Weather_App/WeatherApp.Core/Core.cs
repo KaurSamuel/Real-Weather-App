@@ -26,7 +26,7 @@ namespace WeatherApp.Core
 
         public static async Task<List<Weather>> GetWeatherForecast(string CityID)
         {
-            var weatherforecast = new Weather();
+            
             List<Weather> weather = new List<Weather>() { };
 
             string key = "9c53713d4a89d60615482a2ad46a4e45";
@@ -34,6 +34,7 @@ namespace WeatherApp.Core
             dynamic results = await DataService.GetDataFromService(queryString).ConfigureAwait(false);
             for (int i = 0; i < 39; i+=8)
             {
+                var weatherforecast = new Weather();
                 weatherforecast.Temperature = (string)results["list"][i]["main"]["temp"] + "C";
                 weatherforecast.description = (string)results["list"][i]["weather"][0]["description"];
                 weatherforecast.Date = (string)results["list"][i]["dt_txt"];
